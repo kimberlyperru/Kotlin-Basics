@@ -26,5 +26,10 @@ fun main() {
     }
     //Working with arrays
     //try using a for loop in an array
+    var planets = arrayOf("Mercury", "Venus", "Earth", "Mars")
+
+    for (planet in planets) {
+        println("Exploring $planet...")
+    }
 
 }
